@@ -110,3 +110,41 @@ In this project, Exploratory Data Analysis (EDA) was performed to gain insights 
 5. Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
 6. Peak Shopping Hours by Gender: What are the peak shopping hours for male and female customers?
 7. Payment Method by Total Sales: Which payment method (Cash, Credit card, Ewallet) is most popular based on total sales?
+
+### Detailed Overview Of The Analysis
+
+1. Customer Distribution by Gender and Branch
+
+Description: Analyzed the distribution of customers by gender across different branches.
+
+Visualization: Bar chart showing the number of male and female customers in each branch.
+
+Branch A: 179 males, 161 females  
+Branch B: 170 males, 162 females 
+Branch C: 150 males, 178 females 
+
+![git 1](https://github.com/user-attachments/assets/ce24a29f-7c64-4365-8434-de641a0fd5fe)
+
+
+Key Insight: 
+
+Branches attract both genders fairly equally, with Branch C having more female customers.
+
+2. Sales by Customer Type and Branch
+
+Description: Compared total sales between members and non-members in each branch.
+
+Visualization: Pivot table and bar chart showing sales figures for each customer type across branches.
+
+Key Insights:
+Members contribute significantly more to sales than non-members in Branch B.
+Non-members account for a larger share of sales in Branch D.
+
+3. Customer Satisfaction by Gender
+
+Description: Calculated the average customer satisfaction rating by gender.
+
+Visualization: Bar chart showing average satisfaction ratings for male and female customers.
+
+Key Insights:
+Female customers report slightly higher satisfaction scores compared to male customers.
