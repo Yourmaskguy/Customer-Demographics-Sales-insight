@@ -78,7 +78,6 @@ I used the IF function to change the customer type values from 0 and 1 to Member
 Formula used: 
 
 '''excel
-
 =IF(D2=1, "Member", "Normal Customer")
 
 3. Replacing Gender Abbreviations:
