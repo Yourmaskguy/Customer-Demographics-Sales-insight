@@ -81,8 +81,6 @@ Formula used:
 =IF(A1 = 1, "Member", "Normal Customer")
 ```
 
-![Customer Type](![customer typee](https://github.com/user-attachments/assets/8e1e661a-dfbe-4236-8d83-37d58ee36da5)
-)
 
 3. Replacing Gender Abbreviations:
 
