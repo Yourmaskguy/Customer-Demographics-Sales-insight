@@ -104,10 +104,10 @@ Converted the Unit Price, Tax 5%, Total, COGS, and Gross Income columns to curre
 
 In this project, Exploratory Data Analysis (EDA) was performed to gain insights into customer demographics, purchasing behaviors, and sales performance. The following key questions guided the analysis:
 1. Customer Distribution by Gender and Branch: What is the distribution of customers by gender across different branches?
-2. Total Sales by Customer Type and Branch: How do total sales compare between members and non-members in each branch?
+2. Total Sales by Customer Type and Branch: How do total sales compare between members and normal customer in each branch?
 3. Customer Satisfaction by Gender: What is the average customer satisfaction rating by gender?
 4. Average Total Purchase Amount by Gender: Is there a significant difference in the average total purchase amount between male and female customers?
-5. Total Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
+5. Total Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. normal customer)?
 6. Peak Shopping Hours by Gender: What are the peak shopping hours for male and female customers?
 7. Payment Method by Total Sales: Which payment method (Cash, Credit card, Ewallet) is most popular based on total sales?
 
@@ -242,15 +242,47 @@ Peak shopping times vary, with the highest activity around 3 PM for males and 10
 7. Payment Method by Total Sales
 
 Description: Analyzed which payment method (Cash, Credit card, Ewallet) is most popular based on total sales.
-Visualization: Pie chart showing the distribution of total sales by payment method.
-Key Insights:
-Credit card payments account for the majority of total sales.
+
+Ewallet: $109,993 
+
+Credit Card: $100,767
+
+Cash: $112,207
+
+Key Insight:  
+
+Cash is the most popular payment method, followed by Ewallet and then credit card.
+
+
 
 ### Dashboard Overview
 
 ![final](https://github.com/user-attachments/assets/4e77960e-7d61-45bb-84f7-51147215247b)
 
-### Key Insights
+### Key Findings
+
+Gender Distribution: Branches attract both genders equally, with a slight preference for females in Branch C.
+
+Sales by Customer Type: Members contribute more to sales than normal customer across all branches.
+
+Customer Satisfaction: Similar satisfaction levels for both genders. 
+
+Average Purchase Amount: Female customers spend more on average than male customers.
+
+Quantity Purchased: Members purchase slightly more products than normal customer.
+
+Peak Shopping Hours: Peak times vary by gender, with females shopping more in the morning and males in the afternoon.
+
+Payment Methods: Cash is the most popular, followed by Ewallet and credit cards.
 
 ### Recommendation
+
+- Enhance Membership Programs: Leverage the higher spending and product quantity purchased by members to drive membership sign-ups.  
+- Optimize Store Staffing: Adjust staffing levels to match peak shopping hours for males and females.  
+- Targeted Promotions: Create gender-specific promotions to capitalize on spending habits.  
+- Improve Payment Options: Encourage the use of cash and Ewallets with targeted incentives.
+
+### Conclusion
+
+By leveraging these insights and recommendations, the company can optimize its operations, improve customer satisfaction, and drive higher sales, positioning itself for sustained growth and success.
 
