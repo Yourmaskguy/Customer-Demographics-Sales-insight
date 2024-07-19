@@ -53,7 +53,18 @@ The dataset comprises the following columns:
 
 ### Data Cleaning/Preparation
 
-In the initial data preparation phase, we performed the following task
+In the initial data preparation phase, we performed the following task:
 1. Data loading and inspection
 2. Handling missing values
 3. Data cleaning and formatting
+
+### Exploratory Data Analysis (EDA)
+
+In this project, Exploratory Data Analysis (EDA) was performed to gain insights into customer demographics, purchasing behaviors, and sales performance. The following key questions guided the analysis:
+1. Customer Distribution by Gender and Branch: What is the distribution of customers by gender across different branches?
+2. Sales by Customer Type and Branch: How do total sales compare between members and non-members in each branch?
+3. Customer Satisfaction by Gender: What is the average customer satisfaction rating by gender?
+4. Average Purchase Amount by Gender: Is there a significant difference in the average total purchase amount between male and female customers?
+5. Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
+6. Peak Shopping Hours by Gender: What are the peak shopping hours for male and female customers?
+7. Payment Method by Total Sales: Which payment method (Cash, Credit card, Ewallet) is most popular based on total sales?
