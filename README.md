@@ -77,8 +77,8 @@ The data cleaning process involved several steps to ensure data quality and cons
 I used the IF function to change the customer type values from 0 and 1 to Members and Normal Customers, respectively.
 Formula used: 
 
-'''excel
-=IF(D2=1, "Member", "Normal Customer")
+```excel
+=IF(A1 = 1, "Member", "Normal Customer")
 
 3. Replacing Gender Abbreviations:
 
