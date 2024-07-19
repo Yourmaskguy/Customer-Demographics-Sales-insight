@@ -79,7 +79,7 @@ Formula used:
 
 '''excel
 
-=IF(D2=1, "Member", "Normal Customer")"
+=IF(D2=1, "Member", "Normal Customer")
 
 3. Replacing Gender Abbreviations:
 
