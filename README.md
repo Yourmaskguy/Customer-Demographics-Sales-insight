@@ -104,7 +104,7 @@ Converted the Unit Price, Tax 5%, Total, COGS, and Gross Income columns to curre
 
 In this project, Exploratory Data Analysis (EDA) was performed to gain insights into customer demographics, purchasing behaviors, and sales performance. The following key questions guided the analysis:
 1. Customer Distribution by Gender and Branch: What is the distribution of customers by gender across different branches?
-2. Sales by Customer Type and Branch: How do total sales compare between members and non-members in each branch?
+2. Total Sales by Customer Type and Branch: How do total sales compare between members and non-members in each branch?
 3. Customer Satisfaction by Gender: What is the average customer satisfaction rating by gender?
 4. Average Purchase Amount by Gender: Is there a significant difference in the average total purchase amount between male and female customers?
 5. Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
@@ -130,15 +130,29 @@ Key Insight:
 
 Branches attract both genders fairly equally, with Branch C having more female customers.
 
-2. Sales by Customer Type and Branch
+2. Total Sales by Customer Type and Branch
 
-Description: Compared total sales between members and non-members in each branch.
+Description: Compared total sales between members and normal customer in each branch.
 
 Visualization: Pivot table and bar chart showing sales figures for each customer type across branches.
 
+Branch A: 
+- Normal Customer: $52,562.90
+- Members: $53,637.48  
+
+Branch B:
+- Normal Customer: $52,492.99
+- Members: $53,704.69 
+
+Branch C:
+- Normal Customer: $53,687.42
+- Members: $56,881.28 
+
+![git 2](https://github.com/user-attachments/assets/5b49f472-b0d7-4402-af31-c2d5dd3f4e27)
+
 Key Insights:
-Members contribute significantly more to sales than non-members in Branch B.
-Non-members account for a larger share of sales in Branch D.
+
+Membership programs positively impact sales, with members spending more.
 
 3. Customer Satisfaction by Gender
 
@@ -146,5 +160,13 @@ Description: Calculated the average customer satisfaction rating by gender.
 
 Visualization: Bar chart showing average satisfaction ratings for male and female customers.
 
+Female: 6.96  
+
+Male: 6.98  
+
+![git 3](https://github.com/user-attachments/assets/f1f06932-449d-4238-8cb5-7d2f34439b9d)
+
 Key Insights:
-Female customers report slightly higher satisfaction scores compared to male customers.
+
+Both genders report similar satisfaction levels, indicating consistent service quality.
+
