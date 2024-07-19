@@ -54,7 +54,7 @@ The dataset comprises the following columns:
 ### Microsoft Excel Skills/Concepts applied:
 
 1. Data Cleaning
-2. Excel Formulas (IFS etc.)
+2. Excel Formulas (IF etc.)
 3. Conditional Formatting
 4. Cell Referencing
 5. Pivot Tables/Charts
@@ -96,6 +96,9 @@ M to Male
 4. Formatting Numerical Values as Currency:
 
 Converted the Unit Price, Tax 5%, Total, COGS, and Gross Income columns to currency format.
+
+![currency](https://github.com/user-attachments/assets/b760925c-2484-4575-a195-8ac26b0e70d3)
+
 
 ### Exploratory Data Analysis (EDA)
 
