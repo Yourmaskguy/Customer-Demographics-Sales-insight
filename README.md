@@ -106,8 +106,8 @@ In this project, Exploratory Data Analysis (EDA) was performed to gain insights 
 1. Customer Distribution by Gender and Branch: What is the distribution of customers by gender across different branches?
 2. Total Sales by Customer Type and Branch: How do total sales compare between members and non-members in each branch?
 3. Customer Satisfaction by Gender: What is the average customer satisfaction rating by gender?
-4. Average Purchase Amount by Gender: Is there a significant difference in the average total purchase amount between male and female customers?
-5. Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
+4. Average Total Purchase Amount by Gender: Is there a significant difference in the average total purchase amount between male and female customers?
+5. Total Quantity Purchased by Customer Type: How does the quantity of products purchased vary by customer type (member vs. non-member)?
 6. Peak Shopping Hours by Gender: What are the peak shopping hours for male and female customers?
 7. Payment Method by Total Sales: Which payment method (Cash, Credit card, Ewallet) is most popular based on total sales?
 
@@ -117,7 +117,7 @@ In this project, Exploratory Data Analysis (EDA) was performed to gain insights 
 
 Description: Analyzed the distribution of customers by gender across different branches.
 
-Visualization: Bar chart showing the number of male and female customers in each branch.
+Visualization: Clustered Column chart showing the number of male and female customers in each branch.
 
 Branch A: 179 males, 161 females  
 Branch B: 170 males, 162 females 
@@ -134,7 +134,7 @@ Branches attract both genders fairly equally, with Branch C having more female c
 
 Description: Compared total sales between members and normal customer in each branch.
 
-Visualization: Pivot table and bar chart showing sales figures for each customer type across branches.
+Visualization: Pivot table and clustered bar chart showing sales figures for each customer type across branches.
 
 Branch A: 
 - Normal Customer: $52,562.90
@@ -158,7 +158,7 @@ Membership programs positively impact sales, with members spending more.
 
 Description: Calculated the average customer satisfaction rating by gender.
 
-Visualization: Bar chart showing average satisfaction ratings for male and female customers.
+Visualization: Clustered Column chart showing average satisfaction ratings for male and female customers.
 
 Female: 6.96  
 
@@ -169,4 +169,88 @@ Male: 6.98
 Key Insights:
 
 Both genders report similar satisfaction levels, indicating consistent service quality.
+
+4. Average Total Purchase Amount by Gender
+
+Description: Analyzed the difference in average total purchase amounts between male and female customers.
+
+Visualization: Pie chart showing average purchase amounts for each gender.
+
+Female: $335.10 
+
+Male: $310.79  
+
+![git 4](https://github.com/user-attachments/assets/796ff3f2-d210-4bf0-a2fa-d4aff964ac3e)
+
+Key Insights:
+Female customers have a higher average transaction value.
+
+5. Total Quantity Purchased by Customer Type
+
+Description: Examined how the quantity of products purchased varies by customer type.
+
+Visualization: Pivot table and bar chart showing average quantity purchased by each customer type.
+
+Normal Customer: 2,725  
+
+Members: 2,785  
+
+![git 55](https://github.com/user-attachments/assets/65cc4112-94d1-4dbc-9d3e-250b962706e4)
+
+
+Key Insights:
+
+Members purchase slightly more products on average.
+
+
+6. Peak Shopping Hours by Gender
+
+Description: Identified peak shopping hours for male and female customers.
+
+Visualization: Line graph showing shopping frequency by hour for each gender.
+
+10 AM: Female - 62, Male - 39  
+
+11 AM: Female - 47, Male - 43  
+
+12 PM: Female - 46, Male - 43  
+
+1 PM:   Female - 61, Male - 42
+
+2 PM:   Female - 39, Male - 44 
+
+3 PM:   Female - 42, Male - 60
+
+4 PM:   Female - 36, Male - 41
+
+5 PM:   Female - 38, Male - 36
+
+6 PM:   Female - 45, Male - 48 
+
+7 PM:   Female - 54, Male - 59
+
+8 PM:   Female - 31, Male - 44
+
+![git 6](https://github.com/user-attachments/assets/b8afa608-e9cd-4ee5-9aad-5a7470c251fb)
+
+
+Key Insights:
+
+Peak shopping times vary, with the highest activity around 3 PM for males and 10 AM for females.
+
+
+7. Payment Method by Total Sales
+
+Description: Analyzed which payment method (Cash, Credit card, Ewallet) is most popular based on total sales.
+Visualization: Pie chart showing the distribution of total sales by payment method.
+Key Insights:
+Credit card payments account for the majority of total sales.
+
+### Dashboard Overview
+
+![final](https://github.com/user-attachments/assets/4e77960e-7d61-45bb-84f7-51147215247b)
+
+### Key Insights
+
+### Recommendation
 
