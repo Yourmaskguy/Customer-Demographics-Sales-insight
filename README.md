@@ -51,12 +51,44 @@ The dataset comprises the following columns:
 
 -Excel [Download-here](https://www.microsoft.com/en-us/microsoft-365/excel)
 
+### Microsoft Excel Skills/Concepts applied:
+
+1. Data Cleaning
+2. Excel Formulas (IFS etc.)
+3. Conditional Formatting
+4. Cell Referencing
+5. Pivot Tables/Charts
+6. Slicers
+7. Data Visualization
+8. Dashboard Building
+
 ### Data Cleaning/Preparation
 
-In the initial data preparation phase, we performed the following task:
-1. Data loading and inspection
-2. Handling missing values
-3. Data cleaning and formatting
+Data Cleaning
+The data cleaning process involved several steps to ensure data quality and consistency. The following actions were performed:
+
+1. Checking for Spelling Errors, Duplicate Values, and Null Values:
+- Ensured there were no spelling mistakes in categorical fields.
+- Removed duplicate entries from the dataset.
+- Identified and handled null values appropriately.
+
+2. Changing Customer Type Values:
+
+I used the IF function to change the customer type values from 0 and 1 to Members and Normal Customers, respectively.
+Formula used: 
+
+'''excel
+
+=IF(D2=1, "Member", "Normal Customer")"
+
+3. Replacing Gender Abbreviations:
+
+I used the Find and Replace tool in Excel to change the gender abbreviations:
+FM to Female
+M to Male
+Formatting Numerical Values as Currency:
+
+Converted the Unit Price, Tax 5%, Total, COGS, and Gross Income columns to currency format.
 
 ### Exploratory Data Analysis (EDA)
 
