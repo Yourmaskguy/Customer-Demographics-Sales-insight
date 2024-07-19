@@ -81,13 +81,19 @@ Formula used:
 =IF(A1 = 1, "Member", "Normal Customer")
 ```
 
+![Customer Type](https://github.com/user-attachments/assets/39813c92-13ff-4acb-a5b5-fa7ce0202609)
+
 
 3. Replacing Gender Abbreviations:
 
 I used the Find and Replace tool in Excel to change the gender abbreviations:
 FM to Female
 M to Male
-Formatting Numerical Values as Currency:
+
+![gender](https://github.com/user-attachments/assets/94792a3c-bc5e-41de-b1fb-7ff3b0b53412)
+
+
+4. Formatting Numerical Values as Currency:
 
 Converted the Unit Price, Tax 5%, Total, COGS, and Gross Income columns to currency format.
 
